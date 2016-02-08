@@ -6,24 +6,47 @@
             box-sizing: border-box;
 }
 
+
 img {
   width: 150px;
   height: 150px;
-  /*border: solid 2px blue;*/
-  float: left;
   margin: 20px;
-
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
-.friendImages {
-  width: 50%;
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.onlineNow {
+  width: 100px;
+  height: 25px;
+  margin: 0;
+  margin-left: 40px;
+}
+
+p {
+  margin: 0;
+}
+
+.friend {
+float: left;
 }
 
 .header {
-  background-color: #ffcc80;
-  width: 50%;
-  padding-top: .5px;
-  padding-bottom: .5px;
+  background-color: #FFCD9C;
+  width: auto;
+  padding-top: 1px;
+  padding-bottom: 1px;
   padding-left: 10px;
-  color: #b36b00;
+  color: #C27446;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.topFriends {
+    border: solid 1px #FFCD9C;
 }
