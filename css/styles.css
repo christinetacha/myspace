@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  /*border: solid 2px blue;*/
+  float: left;
+  margin: 20px;
+
+}
+
+.friendImages {
+  width: 50%;
+}
+
+.header {
+  background-color: #ffcc80;
+  width: 50%;
+  padding-top: .5px;
+  padding-bottom: .5px;
+  padding-left: 10px;
+  color: #b36b00;
+}
